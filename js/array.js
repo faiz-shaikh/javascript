@@ -23,16 +23,16 @@ const people = [
 
 people.sort((a, b) => a.age - b.age)
 
-console.table(people)
+// console.table(people)
 
 // - Order the people by name alphabetically A-Z
 
 people.sort((a, b) => (a.name > b.name ? 1 : -1))
 
-console.table(people)
+// console.table(people)
 
 // - Pull just the ages into a new array
 
 peoplesAges = people.map(person => person.age)
 
-console.log(peoplesAges)
+// console.log(peoplesAges)
